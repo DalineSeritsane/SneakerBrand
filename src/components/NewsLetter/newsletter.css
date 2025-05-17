@@ -1,0 +1,65 @@
+/* newsletter.css */
+
+.newsletter {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+    border-radius: 50px;
+    max-width: 600px;
+    margin: 40px auto;
+  }
+  
+  .newsletter h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .newsletter p {
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+    color: #ccc;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .newsletter-form input {
+    padding: 12px 15px;
+    width: 100%;
+    max-width: 400px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  .newsletter-form button {
+    padding: 12px 20px;
+    background-color: #e94560;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .newsletter-form button:hover {
+    background-color: #c93450;
+  }
+  
+  .success-message {
+    font-size: 1.1rem;
+    color: #4caf50;
+    font-weight: 500;
+  }
+  
+  .error-message {
+    color: #f44336;
+    font-size: 0.95rem;
+  }
+  
