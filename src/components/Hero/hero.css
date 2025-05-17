@@ -1,0 +1,108 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 6rem;
+    background-color: #f9f9f9;
+    position: relative;
+    gap: 2rem;
+    display: flex;
+  }
+  
+  .hero-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .hero-left h2 {
+    font-size: 2rem;
+    color: purple;
+    font-weight: 700;
+  }
+  
+  .hand-hand-icon {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #007bff;
+  }
+  
+  .hand-hand-icon img {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+  }
+  
+  .hero-left p {
+    font-size: 3.9rem;
+    font-weight: 500;
+    color: #333;
+    margin-top: -0.5rem;
+  }
+  
+  .hero-latest-btn {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 25px;
+    cursor: pointer;
+    width: fit-content;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-latest-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .hero-latest-btn img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .hero-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .hero-right img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive for smaller screens */
+  @media screen and (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+      padding: 2rem;
+    }
+  
+    .hero-left h2 {
+      font-size: 1.5rem;
+    }
+  
+    .hand-hand-icon {
+      font-size: 2rem;
+    }
+  
+    .hero-left p {
+      font-size: 1.5rem;
+    }
+  
+    .hero-latest-btn {
+      font-size: 0.9rem;
+      padding: 0.5rem 1rem;
+    }
+  }
+  
