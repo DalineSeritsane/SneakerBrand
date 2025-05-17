@@ -54,7 +54,7 @@ let new_collection = [
     },
     {
         id:8,
-        name:"Valentino Garavani Sneakers",
+        name:"Valentino Sneakers",
         image: NewCollection8,
         price:8999.99
     }
