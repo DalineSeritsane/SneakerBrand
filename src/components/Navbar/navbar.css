@@ -1,0 +1,124 @@
+/* Reset default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* Logo section */
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.navbar-logo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.brand-name {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #222;
+}
+
+/* Navigation menu */
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  font-size: 1rem;
+}
+
+.navbar-menu li {
+  position: relative;
+  cursor: pointer;
+}
+
+.navbar-menu li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-menu li:hover a {
+  color: #007bff;
+}
+
+/* Underline on active menu */
+.navbar-menu hr {
+  margin-top: 4px;
+  border: none;
+  height: 2px;
+  background-color: #007bff;
+  width: 100%;
+  animation: slideIn 0.3s ease-in-out;
+}
+
+@keyframes slideIn {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Login & cart area */
+.nav-login-cart {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.nav-login-cart button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-login-cart button:hover {
+  background-color: #0056b3;
+}
+
+/* Cart image */
+.nav-login-cart img {
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+}
+
+/* Cart count badge */
+.nav-cart-count {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background-color: red;
+  color: white;
+  font-size: 0.7rem;
+  padding: 2px 6px;
+  border-radius: 50%;
+  font-weight: bold;
+}
