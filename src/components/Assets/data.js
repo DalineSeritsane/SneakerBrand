@@ -1,6 +1,6 @@
 import DunkHigh from './Dunk-high1.jpg';
 import Puma1 from './Puma1.jpg';
-import NikeDunk2 from './Nike-Dunk2.jpg'
+import NikeDunk2 from './NikeDunk2.jpg'
 import Valentino1 from './Valentino1.jpg';
 
 let data_product = [
