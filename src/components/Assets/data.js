@@ -1,4 +1,4 @@
-import DunkHigh from './Dunk-high1.jpg';
+import DunkHigh1 from './Dunkhigh1.jpg';
 import Puma1 from './Puma1.jpg';
 import NikeDunk2 from './NikeDunk2.jpg'
 import Valentino1 from './Valentino1.jpg';
@@ -7,7 +7,7 @@ let data_product = [
     {
         id:1,
         name:"Dunk High Nike Sneakers",
-        image: DunkHigh,
+        image: DunkHigh1,
         price:3999.99
     },
     {
