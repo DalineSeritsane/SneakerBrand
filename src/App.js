@@ -6,9 +6,9 @@ import Home from './pages/Home';
 import Product from './pages/Product';
 import Cart from './pages/Cart';
 import Login from './pages/Login';
-// import nike_banner from './components/Assets/nike_banner.jpg';
-// import puma_banner from './components/Assets/puma_banner.jpg';
-// import valentino_banner from './components/Assets/valentino_banner.jpg';
+ import nike_banner from './components/Assets/nike_banner.jpg';
+ import puma_banner from './components/Assets/puma_banner.jpg';
+ import valentino_banner from './components/Assets/valentino_banner.jpg';
 
 function App() {
   return (
@@ -17,9 +17,9 @@ function App() {
       <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/nike" element={<Category   />} />
-          <Route path="/puma" element={<Category  />} />
-          <Route path="/valentino" element={<Category  />} />
+          <Route path="/nike" element={<Category banner={nike_banner} category="nike"   />} />
+          <Route path="/puma" element={<Category banner={puma_banner} category="puma"  />} />
+          <Route path="/valentino" element={<Category banner={valentino_banner} category="valentino"   />} />
           <Route path="/product" element={<Product/>}>
             <Route path=":productId" element={<Product/>}/>
           </Route>
