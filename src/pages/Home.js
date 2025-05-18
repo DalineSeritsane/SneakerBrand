@@ -3,8 +3,8 @@ import Hero from "../components/Hero/Hero";
 import Popular from '../components/Popular/Popular';
 import Offers from '../components/Offers/Offers';
 import Collections from '../components/Collections/Collections';
-import NewsLetter from '../components/NewsLetter/NewsLetter';
-import Footer from '../Footer/Footer'
+import Newsletter from '../components/NewsLetter/Newsletter';
+import Footer from '../components/Footer/Footer'
 
 const Home = () => {
   return (
@@ -13,7 +13,7 @@ const Home = () => {
       <Popular />
       <Offers />
       <Collections />
-      <NewsLetter />
+      <Newsletter />
       <Footer />
     </div>
   )
