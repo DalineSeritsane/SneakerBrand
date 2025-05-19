@@ -10,7 +10,7 @@ const Collections = () => {
       <hr />
       <div className='collections'>
         {new_collection.map((item, i) => (
-          <div className="popular-card" key={i}>
+          <div className="popular-card" key={i} id={item.id}>
             <img src={item.image} alt={item.name} />
             <h3>{item.name}</h3>
             <p>Price: R{item.price}</p>
