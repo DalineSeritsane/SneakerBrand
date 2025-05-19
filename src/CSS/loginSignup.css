@@ -1,89 +1,88 @@
 /* loginSignup.css */
 
-.loginsignup {
+.login-signup {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+  min-height: 90vh;
+  background: #f4f4f4;
   padding: 20px;
 }
 
-.loginsignup-container {
-  background-color: #fff;
+.login-signup-container {
+  background: #ffffff;
   padding: 40px 30px;
-  border-radius: 16px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
   max-width: 400px;
-  text-align: center;
+  width: 100%;
 }
 
-.loginsignup-container h1 {
+.login-signup-container h1 {
   font-size: 28px;
+  margin-bottom: 25px;
+  text-align: center;
   color: #333;
-  margin-bottom: 24px;
 }
 
-.loginsignup-fields {
+.login-signup-fields {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
-.loginsignup-fields input {
-  padding: 12px 16px;
+.login-signup-fields input {
+  padding: 12px 14px;
   border: 1px solid #ccc;
   border-radius: 8px;
-  font-size: 16px;
+  font-size: 14px;
   outline: none;
-  transition: border 0.3s ease;
+  transition: border-color 0.3s;
 }
 
-.loginsignup-fields input:focus {
-  border-color: #007bff;
+.login-signup-fields input:focus {
+  border-color: #000;
 }
 
 button {
   width: 100%;
   padding: 12px;
-  background-color: #007bff;
+  background-color: #111;
   color: white;
-  font-size: 16px;
-  font-weight: 600;
   border: none;
   border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
   cursor: pointer;
-  transition: background 0.3s ease;
+  transition: background 0.3s;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #333;
 }
 
-.loginsignup-login {
-  margin-top: 16px;
+.login-signup-login {
+  margin-top: 15px;
   font-size: 14px;
+  text-align: center;
   color: #555;
 }
 
-.loginsignup-login span {
+.login-signup-login span {
   color: #007bff;
   cursor: pointer;
-  text-decoration: underline;
 }
 
-.loginsignup-agree {
+.login-signup-agree {
   display: flex;
   align-items: flex-start;
   gap: 10px;
-  margin-top: 16px;
+  margin-top: 20px;
   font-size: 13px;
-  text-align: left;
   color: #666;
 }
 
-.loginsignup-agree input {
-  margin-top: 4px;
+.login-signup-agree input {
+  margin-top: 3px;
 }

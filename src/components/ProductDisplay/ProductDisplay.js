@@ -11,7 +11,7 @@ const ProductDisplay = (props) => {
                 <img src={product.image} alt=''/>
                  <img src={product.image} alt=''/>
                   <img src={product.image} alt=''/>
-                   <img src={product.image} alt=''/>
+                   
             </div>
             <div className='product-display-img'>
                 <img className='product-display-main-img' src={product.image} alt=''/>
@@ -27,8 +27,23 @@ const ProductDisplay = (props) => {
                 <img src={stars_icon} alt=''/>
                 <p>(188)</p>
             </div>
-            <div className="productdisplay-right-prices">
-                <div className="productdisplay-right-price">{product.price}</div>
+            <div className="product-display-right-prices">
+                <div className="product-display-right-price">{product.price}</div>
+            </div>
+            <div className='product-display-right-description'>
+                Puma shoes are designed for comfort, support, and durability. They offer a comfortable fit and provide good traction with their soft cushion feel at every step.
+            </div>
+            <div className="product-display-right-size">
+                <h2>Select Size</h2>
+                <div className="product-display-right-size">
+                    <div>S</div>
+                     <div>M</div>
+                      <div>L</div>
+                    
+                </div>
+                <button className='product-display-cart'>ADD TO CART</button>
+                <p className="product-display-right-category"><span>Category :</span>Puma , Sneakers</p>
+
             </div>
 
 

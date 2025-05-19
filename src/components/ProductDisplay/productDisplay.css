@@ -1,0 +1,127 @@
+/* productDisplay.css */
+
+.product-display {
+  display: flex;
+  margin: 0px 170px;
+  gap: 40px;
+  padding: 40px;
+ 
+}
+
+.product-display-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.product-display-img-list {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.product-display-img-list img {
+  width: 70px;
+  height: 163px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.product-display-img-list img:hover {
+  transform: scale(1.1);
+  border-color: #111;
+}
+
+.product-display-img {
+  width: 400px;
+  max-width: 90vw;
+}
+
+.product-display-main-img {
+  width: 586px;
+  height: 700px;
+}
+
+.product-display-right {
+  margin: 0px 70px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.product-display-right h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #222;
+}
+
+.product-display-right-star {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #1c1c1c;
+  font-size: 16px;
+  margin-top: 13px;
+}
+
+.product-display-right-star img {
+  width: 80px;
+  height: 80px;
+}
+
+.product-display-right-star p {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.product-display-right-prices {
+  margin-top: 10px;
+}
+
+.product-display-right-price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #111;
+}
+
+.product-display-right-size{
+    display: flex;
+    margin: 30px 0px;
+    gap: 20px;
+}
+
+.product-display-right-size div{
+    padding: 18px 24px;
+    background: #fbfbfb;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.product-display-cart {
+  margin-top: 20px;
+  padding: 20px 40px;
+  width: 200px;
+  background-color: #6d093b; /* Classic black for premium branding */
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 5x 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-display-cart:hover {
+  background-color: #1a1a1a;
+  transform: scale(1.03);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
