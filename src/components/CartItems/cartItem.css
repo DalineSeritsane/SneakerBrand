@@ -44,7 +44,7 @@
 .cart-items-quantity {
   padding: 6px 12px;
   border: 1px solid #ccc;
-  background-color: #f4f4f4;
+  background-color: #e4a4db;
   border-radius: 8px;
   font-size: 14px;
   cursor: default;
@@ -104,7 +104,7 @@ hr {
 .cart-items-total button {
   width: 100%;
   padding: 12px;
-  background-color: #723e69;
+  background-color: #77417e;
   color: #fff;
   font-weight: 600;
   border: none;
@@ -142,7 +142,7 @@ hr {
 .cart-items-promobox input {
   flex: 1;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #77417e;
   border-radius: 5px;
   font-size: 14px;
 }
