@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useRef, useState } from 'react';
 import './navbar.css';
 import logo from '../Assets/logo.jpg';
 import cartIcon from '../Assets/cart.jpg';
@@ -10,6 +10,7 @@ const Navbar = () => {
   const [menu, setMenu] = useState("home");
   // const cartItemCount = 0;
   const {getTotalCartItems} = useContext(ShopContext);
+  const menuRef = useRef();
 
   return (
     <nav className="navbar">
