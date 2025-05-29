@@ -35,20 +35,20 @@ let all_products = [
   { id: 7, name: "details", category: "Nike Dunk", image: NikeDunk7, price: 1200.00 },
   { id: 8, name: "details", category: "Nike Dunk", image: NikeDunk8, price: 1200.00 },
   { id: 9, name: "details", category: "Nike Dunk", image: NikeDunk10, price: 1200.00 },
-  { id: 10, name: "details", category: "puma", image: Puma1, price: 1200.00 },
-  { id: 11, name: "details", category: "puma", image: Puma2, price: 1200.00 },
-  { id: 12, name: "details", category: "puma", image: Puma3, price: 1200.00 },
-  { id: 13, name: "details", category: "puma", image: Puma4, price: 1200.00 },
-  { id: 14, name: "details", category: "puma", image: Puma5, price: 1200.00 },
-  { id: 15, name: "details", category: "puma", image: Puma6, price: 1200.00 },
-  { id: 16, name: "details", category: "puma", image: Puma7, price: 1200.00 },
+  { id: 10, name: "details", category: "puma", image: Puma1, price: 1500.00 },
+  { id: 11, name: "details", category: "puma", image: Puma2, price: 2600.00 },
+  { id: 12, name: "details", category: "puma", image: Puma3, price: 2500.00 },
+  { id: 13, name: "details", category: "puma", image: Puma4, price: 3500.00 },
+  { id: 14, name: "details", category: "puma", image: Puma5, price: 4500.00 },
+  { id: 15, name: "details", category: "puma", image: Puma6, price: 2500.00 },
+  { id: 16, name: "details", category: "puma", image: Puma7, price: 2300.00 },
   { id: 17, name: "details", category: "puma", image: Puma8, price: 1200.00 },
-  { id: 18, name: "details", category: "valentino", image: Valentino1, price: 1200.00 },
-  { id: 19, name: "details", category: "valentino", image: Valentino2, price: 1200.00 },
-  { id: 20, name: "details", category: "valentino", image: Valentino3, price: 1200.00 },
-  { id: 21, name: "details", category: "valentino", image: Valentino4, price: 1200.00 },
-  { id: 22, name: "details", category: "valentino", image: Valentino5, price: 1200.00 },
-  { id: 23, name: "details", category: "valentino", image: Valentino6, price: 1200.00 }
+  { id: 18, name: "details", category: "valentino", image: Valentino1, price: 2400.00 },
+  { id: 19, name: "details", category: "valentino", image: Valentino2, price: 3600.00 },
+  { id: 20, name: "details", category: "valentino", image: Valentino3, price: 3700.00 },
+  { id: 21, name: "details", category: "valentino", image: Valentino4, price: 15800.00 },
+  { id: 22, name: "details", category: "valentino", image: Valentino5, price: 1240.00 },
+  { id: 23, name: "details", category: "valentino", image: Valentino6, price: 1270.00 }
 ];
 
 export default all_products;
