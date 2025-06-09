@@ -7,9 +7,11 @@ const Popular = () => {
 
   const [popularProducts,setPopularProducts] = useState([]);
 
-  useEffect(()=>{
-    fetch('http://localhost:5000/popularinpuma').then((response)=>response.json()).then((data)=>setPopularProducts(data));
-  },[])
+   useEffect(() => {
+    fetch(`${process.env.REACT_APP_API_BASE_URL}/popularinpuma`)
+      .then((response) => response.json())
+      .then((data) => setPopularProducts(data));
+  }, []);
 
   return (
     <div className='popular'>
