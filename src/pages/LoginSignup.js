@@ -20,10 +20,10 @@ const LoginSignup = () => {
     await fetch(`${process.env.REACT_APP_API_BASE_URL}/login`, {
       method: 'POST',
       headers: {
-        Accept: 'application/form-data',
+        Accept: 'application/json',
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify(formData)
+      body: JSON.stringify({ email: formData.email, password: formData.password })
     })
       .then((response) => response.json())
       .then((data) => responseData = data);
@@ -43,10 +43,16 @@ const LoginSignup = () => {
     await fetch(`${process.env.REACT_APP_API_BASE_URL}/signup`, {
       method: 'POST',
       headers: {
-        Accept: 'application/form-data',
+        Accept: 'application/json',
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify(formData)
+      body: JSON.stringify({ 
+  username: formData.username,
+  email: formData.email, 
+  password: formData.password
+  
+})
+
     })
       .then((response) => response.json())
       .then((data) => responseData = data);
